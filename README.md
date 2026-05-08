@@ -16,11 +16,11 @@ A clean and modern Flutter Settings screen redesign that showcases custom UI com
 
 **Light mode**
 
-![New Settings Screen – Light](docs/Screenshot light mode.png)
+![New Settings Screen – Light](docs/Screenshot_light_mode.png)
 
 **Dark mode**
 
-![New Settings Screen – Dark](docs/Screenshot dark mode.png)
+![New Settings Screen – Dark](docs/Screenshot_dark_mode.png)
 
 ---
 
