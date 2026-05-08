@@ -1,0 +1,39 @@
+@startuml
+
+title Flutter Settings Redesign - Architecture
+
+package "Core" {
+  class AppTheme
+  class Constants
+}
+
+package "Controllers" {
+  class ThemeController
+}
+
+package "Screens" {
+  class SettingsScreen
+}
+
+package "Widgets" {
+  class SettingsProfile
+  class SettingsSection
+  class SettingsRow
+  class SettingsSwitch
+}
+
+class main
+
+main --> ThemeController
+main --> SettingsScreen
+
+SettingsScreen --> SettingsProfile
+SettingsScreen --> SettingsSection
+
+SettingsSection --> SettingsRow
+SettingsRow --> SettingsSwitch
+
+SettingsScreen --> AppTheme
+SettingsScreen --> Constants
+
+@enduml
